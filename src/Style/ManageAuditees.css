@@ -1,0 +1,66 @@
+/* src/Components/web/ManageAuditees.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  .manage-auditees {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .manage-auditees h2 {
+    font-size: 2rem;
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .manage-auditees table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .manage-auditees table th,
+  .manage-auditees table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .manage-auditees table th {
+    background-color: #f4f4f9;
+    color: #004080;
+  }
+  
+  .manage-auditees table tr:nth-child(even) {
+    background-color: #f9f9fc;
+  }
+  
+  .manage-auditees table tr:hover {
+    background-color: #eaf3ff;
+  }
+  
+  .manage-auditees table td button {
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .manage-auditees table td button:hover {
+    background-color: #ff3333;
+  }
+  

@@ -1,0 +1,57 @@
+/* src/Components/web/ViewAuditReport.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9fb;
+    color: #333;
+  }
+  
+  .view-audit-report {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-audit-report h1 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 15px;
+  }
+  
+  .view-audit-report p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .view-audit-report table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .view-audit-report table th, 
+  .view-audit-report table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .view-audit-report table th {
+    background-color: #003366;
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
+  
+  .view-audit-report table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .view-audit-report table tr:hover {
+    background-color: #e6f7ff;
+  }
+  

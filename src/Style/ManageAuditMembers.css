@@ -1,0 +1,77 @@
+/* src/Components/Pages/ManageAuditMembers.css */
+
+/* Reset some default styles */
+ 
+  .manage-audit-members {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .manage-audit-members h2 {
+    font-size: 2rem;
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .manage-audit-members label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .manage-audit-members input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .manage-audit-members button {
+    margin-top: 15px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .manage-audit-members button:hover {
+    background-color: #0066cc;
+  }
+  
+  .manage-audit-members ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .manage-audit-members ul li {
+    background-color: #f4f4f9;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .manage-audit-members ul li span {
+    font-weight: bold;
+  }
+  
+  .manage-audit-members ul li .role {
+    color: #666;
+    font-style: italic;
+  }
+  

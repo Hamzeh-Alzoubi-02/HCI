@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Admin",
+      "password": "123",
+      "role": "Administrator"
+    },
+    {
+      "id": "2",
+      "username": "auditMember",
+      "password": "123",
+      "role": "Audit Member"
+    },
+    {
+      "id": "3",
+      "username": "director",
+      "password": "123",
+      "role": "Director of AQAC"
+    },
+    {
+      "id": "4",
+      "username": "vp",
+      "password": "123",
+      "role": "Vice President"
+    },
+    {
+      "id": "5",
+      "username": "auditee",
+      "password": "123",
+      "role": "Auditee"
+    },
+    {
+      "id": "6",
+      "username": "student1",
+      "password": "student123",
+      "role": "Student"
+    }
+  ],
+  "auditMembers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "role": "Audit Lead"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "role": "Auditor"
+    }
+  ],
+  "auditees": [
+    {
+      "id": "2",
+      "name": "Hamzeh Al-zubi",
+      "status": "Completed"
+    },
+    {
+      "id": "3",
+      "name": "Anas",
+      "status": "In Progress"
+    }
+  ],
+  "auditReports": [
+    {
+      "id": "1",
+      "auditMemberId": 1,
+      "auditeeId": 1,
+      "status": "rejected",
+      "content": "Report content here"
+    }
+  ],
+  "audit-reports": [
+    {
+      "id": "1",
+      "details": "Detailed audit report for department X..."
+    }
+  ]
+}

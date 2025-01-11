@@ -1,0 +1,137 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(85vh - 50px);
+  padding: 20px;
+}
+
+.login-container form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #006233;
+  text-align: center;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 350px;
+  transition: border-color 0.3s ease; /* Add transition on focus */
+}
+
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+  border-color: #006233; /* Highlight border on focus */
+}
+
+.login-container button {
+  padding: 12px 20px;
+  margin-top: 10px;
+  background-color: #006233;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+  width: 100%;
+  max-width: 350px;
+}
+
+.login-container button:hover {
+  background-color: #004d29;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect on hover */
+}
+
+.navBarLogin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+  background-color: #006233;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navBarLogin h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.navBarLogin img {
+  width: 70px;
+  height: 60px;
+  object-fit: contain; /* Ensures the logo doesn't stretch */
+}
+
+@media screen and (max-width: 768px) {
+  .login-container {
+      height: auto;
+      padding: 100px 20px; /* Adjusted padding */
+  }
+
+  .login-container form {
+      padding: 20px;
+      width: 90%;
+  }
+
+  .login-container input[type="text"],
+  .login-container input[type="password"],
+  .login-container button {
+      max-width: 100%;
+  }
+
+  .navBarLogin h1 {
+      font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .login-container h1 {
+      font-size: 20px;
+  }
+
+  .login-container form {
+      padding: 20px;
+  }
+
+  .navBarLogin {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .navBarLogin h1 {
+      margin-bottom: 10px;
+  }
+
+  .navBarLogin img {
+      width: 50px; /* Smaller logo for very small screens */
+      height: 50px;
+  }
+}

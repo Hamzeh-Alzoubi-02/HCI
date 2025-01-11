@@ -1,0 +1,82 @@
+/* src/Components/Pages/AdminDashboard.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Main dashboard container */
+  .admin-dashboard {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  
+  /* Heading */
+  .admin-dashboard h1 {
+    font-size: 2.8rem;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  
+  /* Navigation menu */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+  }
+  
+  /* Menu items */
+  nav ul li {
+    text-align: center;
+  }
+  
+  /* Links in the menu */
+  nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #004080;
+    padding: 15px 25px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effects */
+  nav ul li a:hover {
+    background-color: #005bb5;
+    transform: translateY(-5px);
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    nav ul {
+      grid-template-columns: 1fr; /* One item per row on smaller screens */
+    }
+  }
+  
+  /* Enhanced card-like effect for individual links */
+  nav ul li a {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    background-color: #0066cc;
+    transform: translateY(-6px);
+  }
+  

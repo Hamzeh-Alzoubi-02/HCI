@@ -1,0 +1,53 @@
+/* src/Components/web/PrintAuditReport.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  .print-audit-report {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .print-audit-report h2 {
+    font-size: 2rem;
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .print-audit-report h3 {
+    font-size: 1.5rem;
+    color: #004080;
+    margin-bottom: 15px;
+  }
+  
+  .print-audit-report p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .print-audit-report button {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .print-audit-report button:hover {
+    background-color: #0066cc;
+  }
+  

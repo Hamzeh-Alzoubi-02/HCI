@@ -1,0 +1,79 @@
+/* src/Components/Pages/ViewPerformanceReports.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main container */
+  .view-performance-reports {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Heading */
+  .view-performance-reports h2 {
+    font-size: 2rem;
+    color: #004c8c; /* University blue */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* GPA */
+  .view-performance-reports p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* List of courses and grades */
+  .view-performance-reports ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .view-performance-reports ul li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .view-performance-reports ul li span {
+    font-weight: bold;
+    color: #004c8c;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .view-performance-reports {
+      padding: 15px;
+    }
+  
+    .view-performance-reports ul li {
+      padding: 10px;
+    }
+  
+    .view-performance-reports h2 {
+      font-size: 1.8rem;
+    }
+  
+    .view-performance-reports p {
+      font-size: 1rem;
+    }
+  }
+  

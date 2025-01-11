@@ -1,0 +1,88 @@
+/* src/Components/Pages/ViewAssignments.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main container */
+  .view-assignments {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Heading */
+  .view-assignments h2 {
+    font-size: 2rem;
+    color: #004c8c; /* University blue */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* No assignments message */
+  .view-assignments p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* List of assignments */
+  .view-assignments ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .view-assignments ul li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .view-assignments ul li h3 {
+    color: #004c8c;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .view-assignments ul li p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .view-assignments ul li .assignment-description {
+    margin-top: 10px;
+    color: #666;
+    font-style: italic;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .view-assignments {
+      padding: 15px;
+    }
+  
+    .view-assignments ul li {
+      padding: 12px;
+    }
+  
+    .view-assignments h2 {
+      font-size: 1.8rem;
+    }
+  
+    .view-assignments p {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,55 @@
+/* src/Components/web/CheckAuditAssignmentStatus.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  .check-audit-assignment-status {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .check-audit-assignment-status h2 {
+    font-size: 2rem;
+    color: #004080;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .check-audit-assignment-status table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .check-audit-assignment-status table th,
+  .check-audit-assignment-status table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .check-audit-assignment-status table th {
+    background-color: #f4f4f9;
+    color: #004080;
+  }
+  
+  .check-audit-assignment-status table tr:nth-child(even) {
+    background-color: #f9f9fc;
+  }
+  
+  .check-audit-assignment-status table tr:hover {
+    background-color: #eaf3ff;
+  }
+  
+  .check-audit-assignment-status table td {
+    color: #444;
+  }
+  
