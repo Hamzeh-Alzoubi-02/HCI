@@ -22,7 +22,7 @@ import './Style/view-performance-reports.css';
 import './Style/view-assignments.css';
 import './Style/student-profile.css';
 import './Style/audit-member-dashboard.css';
-import './Style/Navbar.css';
+import './Style/NavBar.css';
 
 // Only import necessary components for now
 createRoot(document.getElementById('root')).render(
